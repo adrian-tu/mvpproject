@@ -1,0 +1,29 @@
+# WordPress core
+wp-admin/
+wp-includes/
+wp-config.php
+
+# Media & cache
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Plugins (förutom eget)
+wp-content/plugins/*
+!wp-content/plugins/ecosip-plugin/
+
+# Themes (förutom ert eget child theme)
+wp-content/themes/*
+!wp-content/themes/ecosip-theme/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
+
+# Backup / temp
+*.zip
+*.tar.gz
+*.sql
